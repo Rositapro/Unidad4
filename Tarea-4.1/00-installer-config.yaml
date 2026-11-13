@@ -1,0 +1,6 @@
+network:
+  ethernets:
+    ens33:
+      addresses: [192.168.50.10/24]
+      dhcp4: no
+  version: 2
