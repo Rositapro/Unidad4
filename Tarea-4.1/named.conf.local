@@ -1,0 +1,9 @@
+zone "kittybeauty.local" {
+    type master;
+    file "/etc/bind/db.kittybeauty";
+};
+
+zone "50.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.192";
+};
