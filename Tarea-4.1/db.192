@@ -1,0 +1,10 @@
+$TTL 604800
+50.168.192.in-addr.arpa. IN SOA kittybeauty.local. root.kittybeauty.local. (
+	2
+	604800
+	86400
+	2419200
+	604800 )
+;
+50.168.192.in-addr.arpa. IN NS ns1.kittybeauty.local.
+10 IN PTR ns1.kittybeauty.local.
